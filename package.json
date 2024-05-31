@@ -4,7 +4,7 @@
   "description": "Complete unfinished JSON streamed in by LLMs (Like OpenAI's GPT)",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "files": [
     "lib",
@@ -28,5 +28,8 @@
   },
   "homepage": "https://github.com/Operator-technology/json-autocomplete#readme",
   "author": "Joel Tankard",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
